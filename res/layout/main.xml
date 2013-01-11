@@ -43,15 +43,15 @@
 			  android:layout_height="wrap_content"
 			  android:layout_alignParentTop="true"
 			  android:layout_centerHorizontal="true"
-			  android:layout_marginTop="120dp"
+			  android:layout_marginTop="150dp"
 			  android:text="@string/auth_password"
-			  android:textAppearance="?android:attr/textAppearanceLarge"/>
+			  android:textAppearance="?android:attr/textAppearanceMedium"/>
 		<EditText
 			android:id="@+id/passwordEditText"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_centerHorizontal="true"
-			android:layout_marginTop="150dp" >
+			android:layout_marginTop="180dp" >
 			<requestFocus />
 		</EditText>
 		<Button
@@ -60,7 +60,7 @@
 			  android:layout_height="wrap_content"
 			  android:layout_below="@+id/time_display_box"
 			  android:layout_centerHorizontal="true"
-			  android:layout_marginTop="41dp"
+			  android:layout_marginTop="230dp"
 			  android:text="@string/auth_button" />
 	</RelativeLayout>
 </LinearLayout>

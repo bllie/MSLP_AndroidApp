@@ -9,11 +9,6 @@ import android.widget.TextView;
 
 public class NewNewHelloWorld extends Activity {
 
-	private static final int MILLIS_PER_SECOND = 1000;
-	private static final int SECONDS_TO_COUNTDOWN = 30;
-	private TextView countdownDisplay;
-	private CountDownTimer timer;
-
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
