@@ -23,4 +23,9 @@ public class User {
 	public void setPassword(String newPassword) {
 		password = newPassword;
 	}
+
+	public User(String newName, String newPassword) {
+		name = newName;
+		password = newPassword;
+	}
 }
