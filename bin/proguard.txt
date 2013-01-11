@@ -1,3 +1,6 @@
-# view AndroidManifest.xml #generated:7
--keep class com.android.my.NewNewHelloWorld { <init>(...); }
+# view AndroidManifest.xml #generated:10
+-keep class com.android.mslp.ChooseDescipline { <init>(...); }
+
+# view AndroidManifest.xml #generated:4
+-keep class com.android.mslp.MainActivity { <init>(...); }
 

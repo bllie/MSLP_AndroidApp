@@ -18,7 +18,7 @@
 			android:layout_alignParentTop="true"
 			android:layout_centerHorizontal="true"
 			android:layout_marginTop="0dp"
-			android:text="@string/auth"
+			android:text="@string/auth_login"
 			android:textAppearance="?android:attr/textAppearanceLarge"/>
 		<TextView
 			  android:id="@+id/loginTextView"

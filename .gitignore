@@ -8,3 +8,4 @@
 #IWant
 *.cache
 *build.properties
+/MSLP_AndroidApp/gen/
