@@ -4,3 +4,7 @@
 *.jar
 *.war
 *.ear
+
+#IWant
+*.cache
+*build.properties
