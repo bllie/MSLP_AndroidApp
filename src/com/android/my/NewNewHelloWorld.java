@@ -19,37 +19,16 @@ public class NewNewHelloWorld extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		countdownDisplay = (TextView) findViewById(R.id.time_display_box);
 		Button startButton = (Button) findViewById(R.id.authButton);
 		startButton.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View view) {
 				try {
-					showTimer(SECONDS_TO_COUNTDOWN * MILLIS_PER_SECOND);
 				} catch (NumberFormatException e) {
 					// method ignores invalid (non-integer) input and waits
 					// for something it can use
 				}
 			}
 		});
-	}
-
-	private void showTimer(int countdownMillis) {
-		if (timer != null) {
-			timer.cancel();
-		}
-		timer = new CountDownTimer(countdownMillis, MILLIS_PER_SECOND) {
-
-			@Override
-			public void onTick(long millisUntilFinished) {
-				countdownDisplay.setText("counting down: "
-										 + millisUntilFinished / MILLIS_PER_SECOND);
-			}
-
-			@Override
-			public void onFinish() {
-				countdownDisplay.setText("KABOOM!");
-			}
-		}.start();
 	}
 }
