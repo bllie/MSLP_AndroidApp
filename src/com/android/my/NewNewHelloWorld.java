@@ -20,7 +20,7 @@ public class NewNewHelloWorld extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		countdownDisplay = (TextView) findViewById(R.id.time_display_box);
-		Button startButton = (Button) findViewById(R.id.startbutton);
+		Button startButton = (Button) findViewById(R.id.authButton);
 		startButton.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View view) {
