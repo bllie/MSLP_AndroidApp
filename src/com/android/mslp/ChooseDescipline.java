@@ -6,6 +6,7 @@ package com.android.mslp;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Button;
 
 /**
  *
@@ -19,6 +20,6 @@ public class ChooseDescipline extends Activity {
 	@Override
 	public void onCreate(Bundle icicle) {
 		super.onCreate(icicle);
-		setContentView(R.layout.main_1);
+		setContentView(R.layout.choose_descipline);
 	}
 }

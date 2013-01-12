@@ -7,7 +7,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name=".ChooseDescipline" android:label="@string/auth">
+    <activity android:name=".ChooseDescipline" android:label="@string/app_name">
     </activity>
   </application>
 </manifest>

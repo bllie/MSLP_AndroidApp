@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="title">Выбор дисциплины</string>
+	<string name="fio">ФИО</string>
+	<string name="degree">Степень</string>
+</resources>

@@ -11,23 +11,33 @@ public final class R {
     public static final class attr {
     }
     public static final class id {
-        public static final int authButton=0x7f040005;
-        public static final int authTextView=0x7f040000;
-        public static final int loginEditText=0x7f040002;
-        public static final int loginTextView=0x7f040001;
-        public static final int passwordEditText=0x7f040004;
-        public static final int passwordTextView=0x7f040003;
-        public static final int time_display_box=0x7f040006;
+        public static final int authButton=0x7f04000b;
+        public static final int authTextView=0x7f040006;
+        public static final int degreeTextView=0x7f040003;
+        public static final int fioTextView=0x7f040001;
+        public static final int loginEditText=0x7f040008;
+        public static final int loginTextView=0x7f040007;
+        public static final int passwordEditText=0x7f04000a;
+        public static final int passwordTextView=0x7f040009;
+        public static final int strut=0x7f040005;
+        public static final int time_display_box=0x7f04000c;
+        public static final int titleTextView=0x7f040000;
+        public static final int userDegreeTextView=0x7f040004;
+        public static final int userNameTextView=0x7f040002;
     }
     public static final class layout {
-        public static final int main=0x7f020000;
-        public static final int main_1=0x7f020001;
+        public static final int choose_descipline=0x7f020000;
+        public static final int in_design=0x7f020001;
+        public static final int main=0x7f020002;
     }
     public static final class string {
-        public static final int app_name=0x7f030000;
-        public static final int auth=0x7f030001;
-        public static final int auth_button=0x7f030002;
-        public static final int auth_login=0x7f030003;
-        public static final int auth_password=0x7f030004;
+        public static final int app_name=0x7f030003;
+        public static final int auth=0x7f030004;
+        public static final int auth_button=0x7f030005;
+        public static final int auth_login=0x7f030006;
+        public static final int auth_password=0x7f030007;
+        public static final int degree=0x7f030002;
+        public static final int fio=0x7f030001;
+        public static final int title=0x7f030000;
     }
 }

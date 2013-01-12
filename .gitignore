@@ -9,3 +9,6 @@
 *.cache
 *build.properties
 /MSLP_AndroidApp/gen/
+/bin
+*.apk
+*.apk.d
